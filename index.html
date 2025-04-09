@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PassGuard - Password Strength Analyzer</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>PassGuard</h1>
+    <p>Check the strength of your password in real-time</p>
+
+    <input type="password" id="password" placeholder="Enter your password" oninput="analyzePassword()" />
+    <div class="strength-bar">
+      <div id="bar"></div>
+    </div>
+    <p id="feedback"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
