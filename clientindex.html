@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Disaster Alert System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚨 Disaster Alert & Relief System</h1>
+
+  <h2>Send Disaster Alert</h2>
+  <form id="alertForm">
+    <input type="text" id="type" placeholder="Disaster Type (Flood, Fire)" required>
+    <input type="text" id="location" placeholder="Location" required>
+    <button type="submit">Send Alert</button>
+  </form>
+
+  <h2>Request Help</h2>
+  <form id="helpForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="text" id="need" placeholder="Need (food, water, rescue)" required>
+    <button type="submit">Request Help</button>
+  </form>
+
+  <h2>Active Alerts</h2>
+  <ul id="alertList"></ul>
+
+  <h2>Help Requests</h2>
+  <ul id="helpList"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
