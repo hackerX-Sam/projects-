@@ -1,0 +1,10 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f4;
+}
+h1 { color: red; }
+form { margin-bottom: 20px; }
+input { margin-right: 10px; }
+
